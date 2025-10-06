@@ -3,28 +3,40 @@
 ```
 ./
 │  .gitignore
-│  easy-game.html
-│  hard-game.html
-│  high-score.html
-│  index.html
-│  login.html
 │  README.md
-│  signup.html
-│  sudoku.html
 │  
-├─css
-│      game.css
-│      general.css
-│      high-score.css
-│      index.css
-│      login.css
-│      sudoku.css
-│      
 ├─images
 │      drawer-icon.svg
+│      md1.jpg
 │      
-└─javascript
-        index.js        # empty
+├─javascript
+│      index.js           # empty
+│      
+├─public
+│      general.css
+│      index.css
+│      index.html
+│      
+└─src
+    └─pages
+        ├─account
+        │      login.css
+        │      login.html
+        │      signup.html
+        │      
+        ├─games
+        │      easy-game.html
+        │      game.css
+        │      hard-game.html
+        │      
+        ├─high-score
+        │      high-score.css
+        │      high-score.html
+        │      
+        └─sudoku
+                sudoku.css
+                sudoku.html
+                
 ```
 ## Writeup
 - Q: What was the most challenging piece of this assignment?  Did you find it easy or challenging to work with HTML and CSS?  How long did this overall assignment take you?

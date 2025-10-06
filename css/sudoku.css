@@ -1,0 +1,16 @@
+.level-selection-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #fb9b00;
+}
+
+.level-button-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    text-align: center;
+}

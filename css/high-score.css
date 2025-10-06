@@ -1,0 +1,11 @@
+table,
+th,
+td {
+    border: 1px solid;
+    text-align: center;
+}
+.rank-table-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
